@@ -1,0 +1,134 @@
+(footprint "Servo_solder"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "44937b89-f941-4d40-bae0-1ba8b6df1733")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Servo_Wire_Solder"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2140cfcd-97f1-44fe-898c-8dca7f9fab78")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "771b9ae1-4cd4-4c7e-823c-c76bd9aa8aa5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a65b3e5f-b3ff-4192-9134-d90a6aa1aef6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "PWM"
+		(at -6 -5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3dc2e566-f3fd-442c-bdcc-20e84fc0fd2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "V+"
+		(at 1.5 -5.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e81a51f4-89d0-423a-a105-5d91baccddab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "GND"
+		(at 7 -5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "af7b3056-7487-4a4f-93dc-c0b49b5bc8ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d3a9c64c-9179-4ff8-9285-60a11b7efda6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -4.5 -3.5)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f5336a22-a4d4-4deb-806f-ec06b45c63b6")
+	)
+	(pad "2" thru_hole circle
+		(at 2 -3.5)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d577ad62-384c-4c00-98c0-9d93b07ffe8e")
+	)
+	(pad "3" thru_hole circle
+		(at 8.5 -3.5)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2bb78e53-c7ec-4350-8a8f-dd01d147e3d3")
+	)
+	(embedded_fonts no)
+)
