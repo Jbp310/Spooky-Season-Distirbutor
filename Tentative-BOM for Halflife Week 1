@@ -1,7 +1,7 @@
 Raspberry Pi 4b (me)
 Laptop Power Supply (Me)
 Camera?
-MG996R servo motor
+MG996R servo motor -- https://www.aliexpress.us/item/3256806577316104.html?spm=a2g0o.productlist.main.13.1a945a11IeeA8A&algo_pvid=2ed3d1ed-27c8-4da4-a319-40980dc9e729&algo_exp_id=2ed3d1ed-27c8-4da4-a319-40980dc9e729-12&pdp_ext_f=%7B%22order%22%3A%22208%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%216.54%211.09%21%21%2143.60%217.29%21%402101d33417917573756006810e12a5%2112000038223508723%21sea%21US%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3Afc9905%3Bm03_new_user%3A-29895%3BpisId%3A5000000218165380&curPageLogUid=9cC4CJSiqxrL&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005006763630856%7C_p_origin_prod%3A
 speaker/display(https://www.aliexpress.us/item/3256809907715997.html?spm=a2g0o.productlist.main.17.2ad6435f9bvl7S&utparam-url=scene%3Asearch%7Cquery_from%3Apc_back_same_best%7Cx_object_id%3A1005010094030749%7C_p_origin_prod%3A&algo_pvid=70c2ef3e-e8bc-4b0a-a62d-964c4d078ff7&algo_exp_id=70c2ef3e-e8bc-4b0a-a62d-964c4d078ff7&pdp_ext_f=%7B%22order%22%3A%227285%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%217.98%210.99%21%21%2153.25%216.61%21%402101d2e717912521937985637e10f2%2112000051120994503%21sea%21US%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3A1221f791%3Bm03_new_user%3A-29895%3BpisId%3A5000000210782939&gatewayAdapt=4itemAdapt)
 
 Display Notes:
@@ -14,8 +14,14 @@ DC = Data/Command control (required)
 CS = Chip selection, only used when multiple device SPI (I don't need it?)
 
 
-
-
-
+Things for the Voltage step-downs
+https://www.digikey.com/en/products/detail/texas-instruments/lm2576hvt-adj-nopb/212635 -- Step-Down Buck
+https://www.digikey.com/en/products/detail/stmicroelectronics/STPS5L25B-TR/1039700 -- Schottky Diode
+https://www.digikey.com/en/products/detail/panasonic-industry/EEU-FR1E101B/2504119 -- Input Capacitor
+https://www.digikey.ca/en/products/detail/w%C3%BCrth-elektronik/7447070/1638830 -- Inductor
+https://www.digikey.com/en/products/detail/nichicon/UPW1V221MPD/589604 -- Output Capacitor
+x2 https://www.digikey.com/en/products/detail/te-connectivity-passive-product/LR1F1K0/2381184 -- 1K Ohm resistor
+https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/MF1-4DC3161F/21679733 -- 3.16 K Ohm Resistor
+https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/MBA02040C3901FCT00/5062625 -- 3.9 K Ohm Resistor
 
 
